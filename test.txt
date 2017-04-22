@@ -1,0 +1,289 @@
+    1  ls
+    2  cd D
+    3  cd Desktop/
+    4  ls
+    5  vim -v
+    6  vi -v
+    7  apt-get vim
+    8  apt-get update
+    9  su
+   10  ls
+   11  cd /
+   12  ls
+   13  cd media/
+   14  ls
+   15  cd cdrom0
+   16  ls
+   17  tar -xvz VMwareTools-10.0.10-4301679.tar.gz 
+   18  tar -xvz VMwareTools-10.0.10-4301679.tar.gz ~
+   19  tar -xvfz VMwareTools-10.0.10-4301679.tar.gz ~/
+   20  tar -xZvf VMwareTools-10.0.10-4301679.tar.gz ~/
+   21  tar -xzvf VMwareTools-10.0.10-4301679.tar.gz ~/
+   22  tar -xzvf VMwareTools-10.0.10-4301679.tar.gz ~
+   23  tar -xzvf VMwareTools-10.0.10-4301679.tar.gz ./
+   24  ls
+   25  tar -xvf VMwareTools-10.0.10-4301679.tar.gz ./
+   26  ls
+   27  cd vmware-tools-distrib/
+   28  ls
+   29  ./ vmware-install.pl
+   30  ./vmware-install.pl
+   31  su
+   32  python
+   33  ls
+   34  vim Test.py 
+   35  python Test.py 
+   36  vim Test.py 
+   37  python Test.py 
+   38  vim Test.py 
+   39  python Test.py 
+   40  vim Test.py 
+   41  python Test.py 
+   42  vim Test.py 
+   43  python Test.py 
+   44  vim Test.py 
+   45  python Test.py 
+   46  vim Test.py 
+   47  python Test.py 
+   48  vim Test.py 
+   49  python Test.py 
+   50  vim Test.py 
+   51  python Test.py 
+   52  vim Test.py 
+   53  python Test.py 
+   54  vim Test.py 
+   55  python3.6 Test.py 
+   56  python3.4 Test.py 
+   57  vim Test.py 
+   58  python
+   59  ls
+   60  vim Test.py 
+   61  python Test.py 
+   62  ls
+   63  vim Test.
+   64  vim Test.txt
+   65  python Test.py 
+   66  vim Test.txt
+   67  python Test.py 
+   68  vim Test.py
+   69  python Test.py 
+   70  vim Test.txt
+   71  vim Test.py
+   72  python Test.py 
+   73  vim Test.txt
+   74  vim Test.py
+   75  python Test.py 
+   76  vim Test.py
+   77  python Test.py 
+   78  vim Test.txt
+   79  python
+   80  python Test.py 
+   81  vim Test.
+   82  vim Test.py
+   83  vim Test1.py
+   84  python Test1.py 
+   85  vim Test1.py
+   86  python Test1.py 
+   87  vim SocketServerSsh.py
+   88  ls
+   89  cd Desktop/
+   90  ls
+   91  mkdir LinuxSysPro
+   92  ls
+   93  cd LinuxSysPro/
+   94  ls
+   95  mkdir lib
+   96  ls
+   97  cd lib/
+   98  ls
+   99  vim tlpi_hdr.h
+  100  cd -
+  101  ls
+  102  cd D
+  103  cd Desktop/
+  104  ls
+  105  cd LinuxSysPro/
+  106  ls
+  107  cd lib/
+  108  ls
+  109  cd t
+  110  vim tlpi_hdr.h 
+  111  ls
+  112  vim get_num.h
+  113  vim error_functions.h
+  114  vim tlpi_hdr.h 
+  115  vim error_functions.h
+  116  vim tlpi_hdr.h 
+  117  vim error_functions.h
+  118  vim ename.c.inc
+  119  ls
+  120  vim error_functions.c
+  121  ls
+  122  gcc error_functions.c -o pp
+  123  vim error_functions.c
+  124  gcc error_functions.c -o pp
+  125  vim error_functions.c
+  126  vim tlpi_hdr.h 
+  127  vim error_functions.c
+  128  gcc error_functions.c -o pp
+  129  vim error_functions.c
+  130  gcc error_functions.c -o pp
+  131  vim error_functions.c
+  132  gcc error_functions.c -o pp
+  133  vim error_functions.c
+  134  gcc error_functions.c -o pp
+  135  vim error_functions.c
+  136  gcc error_functions.c -o pp
+  137  vim error_functions.c
+  138  gcc error_functions.c -o pp
+  139  vim error_functions.c
+  140  gcc error_functions.c -o pp
+  141  vim error_functions.c
+  142  gcc error_functions.c -o pp
+  143  vim error_functions.c
+  144  gcc error_functions.c -o pp
+  145  vim error_functions.c
+  146  vim error_functions.h
+  147  vim error_functions.c
+  148  gcc error_functions.c -o pp
+  149  vim error_functions.c
+  150  gcc error_functions.c -o pp
+  151  vim error_functions.c
+  152  vim error_functions.h
+  153  vim error_functions.c
+  154  vim error_functions.h
+  155  gcc error_functions.c -o pp
+  156  vim error_functions.c
+  157  ls
+  158  clear
+  159  ls
+  160  gcc error_functions.c -o pp
+  161  vim error_functions.c
+  162  gcc error_functions.c -o pp
+  163  vim error_functions.c
+  164  gcc error_functions.c -o pp
+  165  vim error_functions.c
+  166  gcc error_functions.c -o pp
+  167  vim error_functions.c
+  168  gcc error_functions.c -o pp
+  169  vim error_functions.c
+  170  gcc error_functions.c -o pp
+  171  vim error_functions.h
+  172  gcc error_functions.c -o pp
+  173  vim error_functions.c
+  174  vim error_functions.h
+  175  gcc error_functions.c -o pp
+  176  vim error_functions.h
+  177  gcc error_functions.c -o pp
+  178  vim error_functions.c
+  179  vim error_functions.h
+  180  gcc error_functions.c -o pp
+  181  ls
+  182  vim tlpi_hdr.h 
+  183  vim error_functions.c
+  184  vim tlpi_hdr.h 
+  185  gcc error_functions.c -o pp
+  186  vim error_functions.c
+  187  gcc error_functions.c -o pp
+  188  vim error_functions.c
+  189  gcc error_functions.c -o pp
+  190  ls
+  191  vim test.c
+  192  ls
+  193  vim tlpi_hdr.h 
+  194  vim test.c 
+  195  gcc test.c -o qq
+  196  ls
+  197  vim test.c 
+  198  gcc test.c -o qq
+  199  vim test.c 
+  200  gcc test.c -o qq
+  201  gcc error_functions.c test.c -o qq
+  202  qq
+  203  ./qq
+  204  vim test.c 
+  205  gcc error_functions.c test.c -o qq
+  206  ./qq test
+  207  vim test.c 
+  208  ls
+  209  vim get_num.h 
+  210  ls
+  211  rm qq -f
+  212  ls
+  213  vim get_num.c
+  214  vim get_num.h
+  215  vim get_num.c
+  216  gcc get_num.c -o
+  217  gcc get_num.c -o pp
+  218  vim get_num.c
+  219  gcc get_num.c -o pp
+  220  vim get_num.c
+  221  gcc get_num.c -o pp
+  222  vim get_num.c
+  223  gcc get_num.c -o pp
+  224  gcc -D_BSD_SOURCE get_num.c -o pp
+  225  gcc -D_BSD_SOURCE get_num.c
+  226  cc -D_BSD_SOURCE get_num.c
+  227  clear
+  228  cc -D_BSD_SOURCE get_num.c
+  229  cc -D_BSD_SOURCE test.c
+  230  cc -D_BSD_SOURCE error_functions.c
+  231  man reboot
+  232  man 2 reboot
+  233  vim test.c 
+  234  man 2 reboot
+  235  vim test.c 
+  236  man 2 reboot
+  237  vim test.c 
+  238  gcc test.c -o pp
+  239  ./pp
+  240  gcc test.c -o pp
+  241  vim test.c 
+  242  gcc test.c -o pp
+  243  vim test.c 
+  244  gcc test.c -o pp
+  245  vim test.c 
+  246  gcc test.c -o pp
+  247  vim test.c 
+  248  gcc test.c -o pp
+  249  ./pp
+  250  ls
+  251  vim error_functions.c
+  252  gcc _D_BSD_SOURCE error_functions.
+  253  gcc _D_BSD_SOURCE error_functions.c
+  254  gcc -D_BSD_SOURCE error_functions.c
+  255  gcc -D_BSD_SOURCE srart
+  256  gcc -D_BSD_SOURCE test.c 
+  257  exit()
+  258  exit
+  259  reboot --help
+  260  man reboot
+  261  reboot help
+  262  reboot
+  263  su 
+  264  ls
+  265  cd Desktop/
+  266  ls
+  267  cd LinuxSysPro/
+  268  ls
+  269  cd lib/
+  270  ls
+  271  cd ..
+  272  ls
+  273  mkdir fileio
+  274  ls
+  275  cd fileio/
+  276  ls
+  277  vim copy.c
+  278  vim ../lib/tlpi_hdr.h 
+  279  vim copy.c
+  280  gcc copy.c -o pp
+  281  vim copy.c
+  282  gcc copy.c -o pp
+  283  ls
+  284  vim copy.c
+  285  ls
+  286  history 
+  287  clear
+  288  ls
+  289  history >> test.txt
