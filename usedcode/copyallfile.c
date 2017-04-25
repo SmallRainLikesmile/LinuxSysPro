@@ -37,7 +37,7 @@ int main(int argc, char * argv[])
 
 	while(llFileSize > 0)
 	{
-		llCopySize = llFileSize > BUFFERSIZE ? BUFFERSIZE : llFileSize%BUFFERSIZE;
+		llCopySize = llFileSize > BUFFERSIZE ? BUFFERSIZE : llFileSize%BUFFERSIZE;			//caculate copy size(when file size < 1024 can copy rest data)
 		llFileSize -= BUFFERSIZE;
 		if(read(iCopyFile, strBuffer, llCopySize) == -1)
 				errExit("read");
