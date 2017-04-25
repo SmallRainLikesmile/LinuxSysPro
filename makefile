@@ -7,7 +7,7 @@ DIR_INC = ./include
 SRC = $(wildcard ${DIR_SRC}/*.c ${DIR_LIB}/*.c)
 OBJ = $(patsubst %.c,${DIR_OBJ}/%.o,$(notdir ${SRC}))
 
-TARGET = seek_io
+TARGET = cpallfile
 
 BIN_TARGET = ${DIR_BIN}/${TARGET}
 
