@@ -15,6 +15,7 @@ int main(int argc,char * argv[])
 	int iCmdNum;
 	int iReadSize;
 	int i;
+	int iWriteSize;
 
 	if(argc < 3 || strcmp(argv[1], "--help") == 0)
 	{
@@ -35,6 +36,7 @@ int main(int argc,char * argv[])
 	{
 		switch(argv[iCmdNum][0])
 		{
+			case 'r':
 			case 'R':
 				{
 					stLen = getLong(&argv[iCmdNum][1], GN_ANY_BASE, argv[iCmdNum]);
@@ -58,24 +60,38 @@ int main(int argc,char * argv[])
 						{
 							if(argv[iCmdNum][0] == 'r')
 							{
-								printf("%c",isprint((unsigned char)strBuffer[i] ? strBuffer[i] : '?'));
+								printf("%c",isprint((unsigned char)strBuffer[i]) ? strBuffer[i] : '?');
 							}
 							else
 							{
-								printf("%02x", (unsigned int)strBuffer[i]);
+								printf("%02x ", (unsigned int)strBuffer[i]);
 							}
 						}
 						printf("\n");
 					}
 					free(strBuffer);
-					break;
-				}
+				}break;
 			case 's':
 				{
-					stLen = getLong(&argv[iCmdNum][1], GN_ANY_BASE, argv[iCmdNum]);
-					
-				}
+					otOffset = getLong(&argv[iCmdNum][1], GN_ANY_BASE, argv[iCmdNum]);
+					if(lseek(iFile, otOffset, SEEK_SET) == -1)
+					{
+						errExit("lseek");
+					}
+					printf("%s:seek is succeeded\n",argv[iCmdNum]);
+				}break;
+			case 'w':
+				{
+					iWriteSize = write(iFile, &argv[iCmdNum][1], strlen(&argv[iCmdNum][1]));
+					if(iWriteSize == -1)
+					{
+						errExit("write");
+					}
+					printf("%s wrote %d\n",argv[iCmdNum],iWriteSize);
+				}break;
 
+			default:
+				cmdLineErr("Argument must start with [wrRs] %s",argv[iCmdNum]);
 		}
 	}
 
