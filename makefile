@@ -7,7 +7,7 @@ DIR_INC = ./include
 SRC = $(wildcard ${DIR_SRC}/*.c ${DIR_LIB}/*.c)
 OBJ = $(patsubst %.c,${DIR_OBJ}/%.o,$(notdir ${SRC}))
 
-TARGET = cpallfile
+TARGET = append
 
 BIN_TARGET = ${DIR_BIN}/${TARGET}
 
