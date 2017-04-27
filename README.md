@@ -10,3 +10,5 @@ atomic_append is down - 2017-4-26
 my dup is down - 2017-4-27
 my dup2 is down - 2017-4-27
 judge file descriptor and new file descriptor share file seek and file flags  - 2017-4-27
+my readv is down - 2017-4-27
+my writev is down - 2017-4-27
