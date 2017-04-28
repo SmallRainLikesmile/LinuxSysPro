@@ -1,5 +1,5 @@
 DIR_LIB = ./lib
-DIR_SRC = ./fileio
+DIR_SRC = ./process
 DIR_OBJ = ./obj
 DIR_BIN = ./bin
 DIR_INC = ./include
