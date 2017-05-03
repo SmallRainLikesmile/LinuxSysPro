@@ -27,7 +27,10 @@ int main(int argc, char * argv[])
 
 	unsetenv("BYE");
 
-	for(pEnviron = en)
+	for(pEnviron = environ; *pEnviron != NULL; pEnviron ++)
+	{
+		puts(*pEnviron);
+	}
 
 	exit(EXIT_SUCCESS);
 }
