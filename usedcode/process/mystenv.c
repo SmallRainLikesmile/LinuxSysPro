@@ -47,6 +47,6 @@ int mysetenv(const char * name, const char * value, int overwrite)
 		putenv(strBuf);
 	}
 
-
+	free(strBuf);
 	return 0;
 }

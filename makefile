@@ -1,5 +1,5 @@
 DIR_LIB = ./lib
-DIR_SRC = ./process
+DIR_SRC = ./memallot
 DIR_OBJ = ./obj
 DIR_BIN = ./bin
 DIR_INC = ./include
