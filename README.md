@@ -21,3 +21,4 @@ process:
 	chapter 6 - process is down - 2017-5-3
 memory alloc:
 	free and sbrk - 2017-5-10
+	my malloc and free is down (no fully tested) - 2017-5-11
