@@ -63,7 +63,7 @@ long getLong(const char * arg, int flags, const char * name)
 	return getNum("getLong",arg, flags, name);
 }
 
-int getInit(const char * arg, int flags, const char * name)
+int getInt(const char * arg, int flags, const char * name)
 {
 	long res;
 

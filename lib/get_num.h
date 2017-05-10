@@ -9,6 +9,6 @@
 #define GN_BASE_16 	0400
 
 long getLong(const char * arg, int flags, const char * name);
-int getInit(const char * arg, int flags, const char * name);
+int getInt(const char * arg, int flags, const char * name);
 
 #endif

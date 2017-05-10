@@ -26,4 +26,4 @@ ${DIR_OBJ}/%.o:${DIR_SRC}/%.c
 
 .PHONY:clean
 clean:
-	find ${DIR_OBJ} -name *.o -exec rm -rf {}\
+	rm ${DIR_OBJ}/*.o -rf
